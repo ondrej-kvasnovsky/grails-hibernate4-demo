@@ -1,13 +1,14 @@
 package com
 
+import com.example.ItemController
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(ExampleController)
-class ExampleControllerSpec extends Specification {
+@TestFor(ItemController)
+class ItemControllerSpec extends Specification {
 
     def setup() {
     }
